@@ -35,7 +35,7 @@ Resources:
         pip3 install flask
         yum install git -y
         cd /home/ec2-user
-        wget -P templates https://raw.githubusercontent.com/Q6171zeynep/Romen-number-conventer/master/templates/index.html
+        wget -P templates https:https://raw.githubusercontent.com/Q6171zeynep/Romen-number-conventer/master/templates/index.html
         wget -P templates https://raw.githubusercontent.com/awsdevopsteam/roman-number-conventor/master/templates/result.html
         wget https://raw.githubusercontent.com/awsdevopsteam/roman-number-conventor/master/app.py
         python3 app.py
