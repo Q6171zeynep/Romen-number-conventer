@@ -13,7 +13,7 @@ Parameters:
   keyName:
     Description: Chose your key pair
     Type: AWS::EC2::KeyPair::KeyName
-    Default: ottoaws9
+    Default: Firstkey
 
 Resources:
   myWebServer:
@@ -44,7 +44,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: ssh http and port 8080 # Required
-      GroupName: osvaldosecgrpromen
+      GroupName: Zeynepsecromen
       SecurityGroupIngress: 
         - IpProtocol: tcp
           FromPort: 80
