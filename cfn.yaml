@@ -13,7 +13,7 @@ Parameters:
   keyName:
     Description: Chose your key pair
     Type: AWS::EC2::KeyPair::KeyName
-    Default: Firstkey
+    Default: firstkey
 
 Resources:
   myWebServer:
